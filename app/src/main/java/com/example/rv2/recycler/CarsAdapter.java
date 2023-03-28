@@ -5,7 +5,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.rv2.R;
@@ -47,8 +46,6 @@ public class CarsAdapter extends RecyclerView.Adapter<CarsAdapter.CarsViewHolder
 	public static class CarsViewHolder extends RecyclerView.ViewHolder {
 
 		ItemCarBinding binding;
-		ImageView imageView;
-		TextView textView;
 
 		public CarsViewHolder(@NonNull ItemCarBinding itemCarBinding) {
 			super(itemCarBinding.getRoot());
